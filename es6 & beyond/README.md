@@ -1,6 +1,6 @@
 # 你不懂JS：ES6与未来
 
-<img src="cover.jpg" width="300">
+<img src="./cover.jpg" width="300">
 
 -----
 
@@ -21,4 +21,3 @@
 * [第七章：元编程](ch7.md)
 * [第八章：ES6 之后](ch8.md)
 * [附录A：鸣谢](apA.md)
- 
