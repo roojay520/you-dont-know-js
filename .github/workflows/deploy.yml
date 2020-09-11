@@ -2,19 +2,19 @@ name: Deploy Web Docs
 on:
   push:
     branches:
-      - master
+      - 1ed-zh-CN
 jobs:
   build:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: master
+          ref: 1ed-zh-CN
 
       - name: Build Docs
         run: |
           npx vuepress build
-          cp favicon.ico ./.vuepress/dist
+          cp -f favicon.ico ./.vuepress/dist
       - name: Deploy Github
         uses: peaceiris/actions-gh-pages@v3
         with:
