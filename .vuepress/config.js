@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/js/',
+  base: '/you-dont-know-js/',
   title: `You Don't Know JS （中文版）`,
   description: `《You Don't Know JS 》（中文版）`,
   themeConfig: {
